@@ -19,10 +19,10 @@ const Riddlebox = () => {
             </article>
             <article className="pa5">
                 <ul className="list pl0 ml0 center mw4 ba b--white br2 bg-white">
-                    <li className="tc mv1 pv3 ba br3 b--black grow pointer bg-green">Lock One</li>
-                    <li className="tc mv1 pv3 ba br3 b--black grow pointer bg-yellow">Lock Two</li>
-                    <li className="tc mv1 pv3 ba br3 b--black grow pointer bg-orange">Lock Three</li>
-                    <li className="tc mv1 pv3 ba br3 b--black grow pointer bg-red">Lock Four</li>
+                    <li className="tc mv1 pv3 ba br3 b--black grow pointer bg-green"><a href="/">Lock One</a></li>
+                    <li className="tc mv1 pv3 ba br3 b--black grow pointer bg-yellow"><a href="/locktwo">Lock Two</a></li>
+                    <li className="tc mv1 pv3 ba br3 b--black grow pointer bg-orange"><a href="/lockthree">Lock Three</a></li>
+                    <li className="tc mv1 pv3 ba br3 b--black grow pointer bg-red"><a href="/lockfour">Lock Four</a></li>
                 </ul>
             </article>
         </div>

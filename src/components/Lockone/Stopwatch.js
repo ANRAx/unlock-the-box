@@ -1,10 +1,18 @@
 import React from 'react';
 import './Stopwatch.css';
+//import timerStore from "../../stores/TimerStore";
+
 
 class Stopwatch extends React.Component {
     // set state
     constructor(props) {
         super(props);
+        // timerStore.setState({
+        //     timerOn: false,
+        //     timerStart: 0,
+        //     timerTime: 0
+        // });
+        
         this.state = {
             timerOn: false,
             timerStart: 0,

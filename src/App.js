@@ -1,23 +1,24 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import Header from './components/Header';
-// import Infobox from './components/Infobox';
-// import Card from './components/Card';
-// import Riddlebox from "./components/Riddlebox";
-// import Footer from './components/Footer';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './index.css';
 import 'tachyons';
 import { Lockone } from './components/pages/Lockone';
+import { Locktwo } from './components/pages/Locktwo';
+import { Lockthree } from './components/pages/Lockthree';
+import { Lockfour } from './components/pages/Lockfour';
 
 function App() {
   return (
-    <div className="App">
+    <React.Fragment>
       <Router>
         <Switch>
           <Route exact path="/" component={Lockone} />
+          <Route path="/locktwo" component={Locktwo} />
+          <Route path="/lockthree" component={Lockthree} />
+          <Route path="/lockfour" component={Lockfour} />
         </Switch>
       </Router>
-    </div>
+    </React.Fragment>
   );
 }
 

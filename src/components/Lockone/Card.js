@@ -74,22 +74,27 @@ class Card extends React.Component {
         const target = e.target;
         const value = target.value;
         const position = target.id;
-
+        //const obj1 = { name: "anup", age: "26" }
+        //const obj2 = { ...obj1, age: "27" }
+        // const obj2 = { ...the values from the first obj, new values}
         if (position === "1") {
             this.setState({
-                positions: {
+                positions:{
+                    ...this.state.positions, 
                     posOne: value
                 }
             });
         } else if (position === "2") {
             this.setState({
                 positions: {
+                    ...this.state.positions,
                     posTwo: value
                 }   
             });
         } else if (position === "3") {
             this.setState({
                 positions: {
+                    ...this.state.positions,
                     posThree: value
                 }
             });
