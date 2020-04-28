@@ -74,9 +74,6 @@ class Card extends React.Component {
         const target = e.target;
         const value = target.value;
         const position = target.id;
-        //const obj1 = { name: "anup", age: "26" }
-        //const obj2 = { ...obj1, age: "27" }
-        // const obj2 = { ...the values from the first obj, new values}
         if (position === "1") {
             this.setState({
                 positions:{
@@ -102,8 +99,6 @@ class Card extends React.Component {
     }
 
     render() {
-        console.log(Object.values(this.state.positions));
-        
         return(
            <div>
                 {/* Stopwatch child component */}

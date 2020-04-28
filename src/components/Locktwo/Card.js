@@ -79,24 +79,28 @@ class Card extends React.Component {
         if (position === "1") {
             this.setState({
                 positions: {
+                    ...this.state.positions,
                     posOne: value
                 }
             });
         } else if (position === "2") {
             this.setState({
                 positions: {
+                    ...this.state.positions,
                     posTwo: value
                 }
             });
         } else if (position === "3") {
             this.setState({
                 positions: {
+                    ...this.state.positions,
                     posThree: value
                 }
             });
         } else if (position === "4") {
             this.setState({
                 positions: {
+                    ...this.state.positions,
                     posFour: value
                 }
             })
@@ -104,8 +108,6 @@ class Card extends React.Component {
     }
 
     render() {
-        console.log(Object.values(this.state.positions));
-
         return (
             <div>
                 {/* Stopwatch child component */}
