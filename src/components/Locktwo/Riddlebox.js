@@ -1,4 +1,5 @@
 import React from 'react';
+import './Riddlebox.css'
 // Created a dummy Component here because we're this component doesn't need to know anything other than the fact that it's rendering the header
 
 const Riddlebox = () => {
@@ -8,7 +9,10 @@ const Riddlebox = () => {
                 <h1 className="f4 bg-light-yellow br3 br--top black-60 mv0 pv2 ph3 tc">Challenge 2</h1>
                 <div className="pa3 bt b--black-10 bg-near-white">
                     <p className="f6 f5-ns lh-copy measure">
-                        Read the hints below and click <a href="https://www.google.com">here</a> to work through your first challenge!
+                        Programmers deal with data, or information, all the time. In this case, we'll be looking at JSON, a type of data. 
+                        Sometimes, that data can be really, really messy. What tool can we use this time to make this easier to read?
+                        Maybe with some <span className="my-luck-variable">(myLuck= </span><span className="luck">lck)</span> you can figure it out. 
+                        Click <a href="https://anrax.github.io/challenge-two/" target="_blank" rel="noopener noreferrer">here</a> to for your second challenge!
                     </p>
                     {/* <ol className="f6 f5-ns lh-copy measure">
                         <li>Hint 1</li>

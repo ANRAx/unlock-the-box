@@ -3,8 +3,8 @@ import React from 'react';
 import './Card.css';
 import Stopwatch from './Stopwatch';
 
-const lockCombo = ["1", "2", "3", "4"];
-const success = ["Success! You've opened lock number 1!"];
+const lockCombo = ["24", "51", "93", "12"];
+const success = ["Success! You've opened lock number 2!"];
 const failure = ["Please try again!"];
 
 class Card extends React.Component {
@@ -123,10 +123,10 @@ class Card extends React.Component {
                     <br />
                     {/* form to capture user inputs */}
                     <form>
-                        <input type="text" maxLength="1" className="bg-yellow dib br3 pa3 ma2 grow bw2 shadow-5" id="1" onChange={this.handleInputChange}></input>
-                        <input type="text" maxLength="1" className="bg-yellow dib br3 pa3 ma2 grow bw2 shadow-5" id="2" onChange={this.handleInputChange}></input>
-                        <input type="text" maxLength="1" className="bg-yellow dib br3 pa3 ma2 grow bw2 shadow-5" id="3" onChange={this.handleInputChange}></input>
-                        <input type="text" maxLength="1" className="bg-yellow dib br3 pa3 ma2 grow bw2 shadow-5" id="4" onChange={this.handleInputChange}></input>
+                        <input type="text" maxLength="2" className="bg-yellow dib br3 pa3 ma2 grow bw2 shadow-5" id="1" onChange={this.handleInputChange}></input>
+                        <input type="text" maxLength="2" className="bg-yellow dib br3 pa3 ma2 grow bw2 shadow-5" id="2" onChange={this.handleInputChange}></input>
+                        <input type="text" maxLength="2" className="bg-yellow dib br3 pa3 ma2 grow bw2 shadow-5" id="3" onChange={this.handleInputChange}></input>
+                        <input type="text" maxLength="2" className="bg-yellow dib br3 pa3 ma2 grow bw2 shadow-5" id="4" onChange={this.handleInputChange}></input>
                     </form>
                     {/* Unlock button that runs checkAnswer func onClick*/}
                     <div>

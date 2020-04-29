@@ -3,7 +3,7 @@ import React from 'react';
 import './Card.css';
 import Stopwatch from './Stopwatch';
 
-const lockCombo = ["1", "2", "3"];
+const lockCombo = ["2", "6", "7"];
 const success = ["Success! You've opened lock number 1!"];
 const failure = ["Please try again!"];
 

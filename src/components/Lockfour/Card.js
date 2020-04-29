@@ -3,7 +3,7 @@ import React from 'react';
 import './Card.css';
 import Stopwatch from './Stopwatch';
 
-const lockCombo = ["w", "a", "s", "d", "f"];
+const lockCombo = ["h", "t", "t", "p", "s"];
 const success = ["Success! You've opened lock number 4!"];
 const failure = ["Please try again!"];
 
@@ -135,6 +135,8 @@ class Card extends React.Component {
                         <input type="text" maxLength="1" className="bg-dark-red dib br3 pa3 ma2 grow bw2 shadow-5" id="1" onChange={this.handleInputChange}></input>
                         <input type="text" maxLength="1" className="bg-dark-red dib br3 pa3 ma2 grow bw2 shadow-5" id="2" onChange={this.handleInputChange}></input>
                         <input type="text" maxLength="1" className="bg-dark-red dib br3 pa3 ma2 grow bw2 shadow-5" id="3" onChange={this.handleInputChange}></input>
+                        <input type="text" maxLength="1" className="bg-dark-red dib br3 pa3 ma2 grow bw2 shadow-5" id="4" onChange={this.handleInputChange}></input>
+                        <input type="text" maxLength="1" className="bg-dark-red dib br3 pa3 ma2 grow bw2 shadow-5" id="5" onChange={this.handleInputChange}></input>
                     </form>
                     {/* Unlock button that runs checkAnswer func onClick*/}
                     <div>

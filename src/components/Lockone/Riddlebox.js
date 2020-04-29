@@ -8,7 +8,7 @@ const Riddlebox = () => {
                 <h1 className="f4 bg-light-green br3 br--top black-60 mv0 pv2 ph3 tc">Challenge 1</h1>
                 <div className="pa3 bt b--black-10 bg-near-white">
                     <p className="f6 f5-ns lh-copy measure">
-                    Read the hints below and click <a href="https://www.google.com">here</a> to work through your first challenge!
+                        Appearances are not what they seem. Perhaps there is a tool that can help us look a little closer at our webpage. Click <a href="https://anrax.github.io/challenge-one/" target="_blank" rel="noopener noreferrer">here</a> to access the first challenge! Remember, Google is your friend.
                     </p>
                     {/* <ol className="f6 f5-ns lh-copy measure">
                         <li>Hint 1</li>

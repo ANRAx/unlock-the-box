@@ -7,6 +7,7 @@ class Stopwatch extends React.Component {
     // set state
     constructor(props) {
         super(props);
+        // to be used with stores/TimerStore.js
         // timerStore.setState({
         //     timerOn: false,
         //     timerStart: 0,

@@ -8,8 +8,11 @@ const Riddlebox = () => {
                 <h1 className="f4 bg-red br3 br--top black-60 mv0 pv2 ph3 tc">Challenge 4</h1>
                 <div className="pa3 bt b--black-10 bg-near-white">
                     <p className="f6 f5-ns lh-copy measure">
-                        Read the hints below and click <a href="https://www.google.com">here</a> to work through your final challenge!
+                        This one will be a little tricky! Programmers and coders are forced to work with new technologies daily! 
+                        Some technolgy is really straightforward and easy to use... some aren't. You will have to pay attention use to context clues and keywords
+                        that are scattered about to complete this lock. 
                     </p>
+                    <p>For this challenge, click <a href="https://makecode.microbit.org/_EbvHy8JgKbKR">here</a> to view the Makecode project</p>
                     {/* <ol className="f6 f5-ns lh-copy measure">
                         <li>Hint 1</li>
                         <li>Hint 2</li>

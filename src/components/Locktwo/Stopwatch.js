@@ -1,6 +1,6 @@
 import React from 'react';
 import './Stopwatch.css';
-//mport timerStore from "../../stores/TimerStore";
+//import timerStore from "../../stores/TimerStore";
 
 class Stopwatch extends React.Component {
     // set state
